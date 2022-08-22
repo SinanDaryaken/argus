@@ -2,7 +2,7 @@
     "name": "daryakenari/argus",
     "description": "Greek God Argus",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
         {
