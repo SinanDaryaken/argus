@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Daryakenari\\Argus\\src\\ArgusServiceProvider"
+                "Daryakenari\\Argus\\ArgusServiceProvider"
             ]
         }
     },
