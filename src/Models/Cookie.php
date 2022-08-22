@@ -2,15 +2,15 @@
 
 namespace Daryakenari\Argus\Models;
 
-use Illuminate\Databse\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class Cookie extends Model
 {
     protected $table = 'argus_cookies';
     protected $guarded = ['id'];
     public $timestamps = ['created_at'];
-    const UPDATE_AT = null;
-    
+    const UPDATED_AT = null;
+
     public function browser()
     {
         return $this->belongsTo(Browser::class);

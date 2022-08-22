@@ -164,6 +164,6 @@ class Service
 
     private function getUniqueKey(): string
     {
-        return strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 12));
+        return strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 6));
     }
 }
