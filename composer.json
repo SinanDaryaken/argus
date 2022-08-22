@@ -1,5 +1,9 @@
 {
     "name": "daryakenari/argus",
+    "description": "Greek God Argus",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Daryakenari\\Argus\\": "src/"
@@ -11,5 +15,20 @@
             "email": "d.sinan.k@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "jenssegers/agent": "^2.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daryakenari\\Argus\\ArgusServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "apcu-autoloader": true,
+        "optimize-autoloader": true
+    }
 }
