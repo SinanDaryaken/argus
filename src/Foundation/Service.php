@@ -157,6 +157,11 @@ class Service
         return [$queryString, $utm];
     }
 
+    private function getUrl(Request $request): string
+    {
+        return trim(ltrim($request->getPathInfo(), '/'));
+    }
+
     private function getUniqueKey(): string
     {
         return strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 12));

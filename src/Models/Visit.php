@@ -9,6 +9,7 @@ class Visit extends Model
     protected $table = 'argus_visits';
     protected $guarded = ['id'];
     public $timestamps = ['created_at'];
+    const UPDATED_AT = null;
     protected $casts = ['utm' => 'array'];
 
     public function cookie()

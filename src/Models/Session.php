@@ -4,7 +4,7 @@ namespace Daryakenari\Argus\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Sessions extends Model
+class Session extends Model
 {
     protected $table = 'argus_sessions';
     protected $guarded = ['id'];
