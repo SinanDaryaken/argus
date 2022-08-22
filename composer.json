@@ -1,8 +1,8 @@
 {
-    "name": "appricot/argus",
+    "name": "daryakenari/argus",
     "autoload": {
         "psr-4": {
-            "Appricot\\Argus\\": "src/"
+            "Daryakenari\\Argus\\": "src/"
         }
     },
     "authors": [
