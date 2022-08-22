@@ -8,7 +8,7 @@ class Browser extends Model
 {
     protected $table = 'argus_browsers';
     protected $fillable = ['name'];
-    public $timestamp = false;
+    public $timestamps = false;
 
     public function cookies()
     {
