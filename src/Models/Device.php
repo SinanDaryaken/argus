@@ -4,7 +4,7 @@ namespace Daryakenari\Argus\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Device extends Models
+class Device extends Model
 {
     protected $table = 'argus_devices';
     protected $fillable = ['nane'];
