@@ -2,12 +2,12 @@
 
 namespace Daryakenari\Argus\Models;
 
-use Illunminate\Database\Eloqeunt\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class OperatingSystem extends Model
 {
     protected $table = 'argus_operating_systems';
-    protected $fillable = ['id'];
+    protected $fillable = ['name'];
     public $timestamps = false;
 
     public function cookies()
