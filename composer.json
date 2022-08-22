@@ -4,11 +4,6 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "autoload": {
-        "psr-4": {
-            "Daryakenari\\Argus\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "SKYWALKER",
@@ -17,6 +12,11 @@
     ],
     "require": {
         "jenssegers/agent": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daryakenari\\Argus\\": "src"
+        }
     },
     "extra": {
         "laravel": {
