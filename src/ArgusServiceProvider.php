@@ -3,6 +3,7 @@
 namespace Daryakenari\Argus;
 
 use Illuminate\Support\ServiceProvider;
+use Weebimo\Core\Commands\Install;
 
 class ArgusServiceProvider extends ServiceProvider
 {
