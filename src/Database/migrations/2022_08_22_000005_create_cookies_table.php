@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('argus_cookies', function(Blueprint $table){
             $table->id();
-            $table->string('key');
+            $table->text('key');
             $table->unsignedInteger('device_id');
             $table->unsignedInteger('operating_system_id');
             $table->unsignedInteger('browser_id');
