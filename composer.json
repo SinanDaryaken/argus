@@ -1,0 +1,15 @@
+{
+    "name": "appricot/argus",
+    "autoload": {
+        "psr-4": {
+            "Appricot\\Argus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SKYWALKER",
+            "email": "d.sinan.k@gmail.com"
+        }
+    ],
+    "require": {}
+}
