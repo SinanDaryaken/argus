@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Browser extends Model
 {
-    protected $table = 'argus_browser';
+    protected $table = 'argus_browsers';
     protected $fillable = ['name'];
     public $timestamp = false;
 
