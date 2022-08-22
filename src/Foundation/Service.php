@@ -1,16 +1,16 @@
 <?php
 
-namespace Chess\Argus\Foundation;
+namespace Daryakenari\Argus\Foundation;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Crypt;
-use Chess\Argus\Models\Cookie as CookieModel;
-use Chess\Argus\Models\Session as SessionModel;
-use Chess\Argus\Models\Browser;
-use Chess\Argus\Models\Device;
-use Chess\Argus\Models\OperatingSystem;
-use Chess\Argus\Models\Visit;
+use Daryakenari\Argus\Models\Cookie as CookieModel;
+use Daryakenari\Argus\Models\Session as SessionModel;
+use Daryakenari\Argus\Models\Browser;
+use Daryakenari\Argus\Models\Device;
+use Daryakenari\Argus\Models\OperatingSystem;
+use Daryakenari\Argus\Models\Visit;
 use Jenssegers\Agent\Agent;
 
 class Service

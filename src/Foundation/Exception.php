@@ -1,8 +1,8 @@
 <?php
 
-namespace Chess\Argus\Foundation;
+namespace Daryakenari\Argus\Foundation;
 
-use Chess\Argus\Models\Exception;
+use Daryakenari\Argus\Models\Exception;
 use Throwable;
 
 class Exception

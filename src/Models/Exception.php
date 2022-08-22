@@ -1,6 +1,6 @@
 <?php
 
-namespace Chess\Argus\Models;
+namespace Daryakenari\Argus\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

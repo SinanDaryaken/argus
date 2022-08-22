@@ -1,6 +1,6 @@
 <?php
 
-namespace Chess\Argus;
+namespace Daryakenari\Argus;
 
 use Illuminate\Support\ServiceProvider;
 
