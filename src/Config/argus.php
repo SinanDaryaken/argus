@@ -9,7 +9,7 @@ return [
     | If the data is true, system capture the robot devices.
     |
     */
-    'capture_robot' => env('ANALYTIC_CAPTURE_ROBOT', false),
+    'capture_robot' => env('ARGUS_CAPTURE_ROBOT', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -19,5 +19,5 @@ return [
     | If the data is true, all exception will be saved.
     |
     */
-    'exception_log' => env('ANALYTIC_EXCEPTION_LOG', true),
+    'exception_log' => env('ARGUS_EXCEPTION_LOG', true),
 ];
